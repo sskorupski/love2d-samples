@@ -5,6 +5,7 @@ end
 
 io.stdout:setvbuf("no")
 love.window.setTitle("beat-em-all" )
+love.graphics.setDefaultFilter("nearest")
 math.randomseed(os.time())
 
 DebugInfo = require("helper.debug-info")
